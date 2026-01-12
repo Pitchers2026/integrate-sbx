@@ -241,8 +241,9 @@ html {
     border: none;
     cursor: pointer;
     padding: 8px;
-    z-index: 100;
+    z-index: 1001;
     flex-shrink: 0;
+    position: relative;
 }
 
 .mobile-menu-btn span {
@@ -1137,6 +1138,13 @@ section {
     
     .navbar .container {
         padding: 0 15px;
+        width: 100%;
+        max-width: 100%;
+    }
+    
+    .navbar {
+        width: 100%;
+        overflow-x: hidden;
     }
     
     .nav-links {
@@ -1198,7 +1206,18 @@ section {
     }
     
     .hero-visual {
-        display: none;
+        display: block;
+        order: 2;
+        height: auto;
+        margin-top: 2rem;
+    }
+    
+    .hero .container {
+        grid-template-columns: 1fr;
+    }
+    
+    .hero-content {
+        order: 1;
     }
     
     .scroll-indicator {
@@ -1211,6 +1230,11 @@ section {
     
     .visual-container {
         grid-template-columns: 1fr;
+        gap: 1rem;
+    }
+    
+    .visual-card {
+        width: 100%;
     }
     
     .visual-card.delay-2 {
