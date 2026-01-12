@@ -152,6 +152,8 @@ html {
     cursor: pointer;
     flex-shrink: 0;
     max-width: calc(100% - 60px);
+    position: relative;
+    z-index: 1002;
 }
 
 .logo-img {
@@ -241,7 +243,7 @@ html {
     border: none;
     cursor: pointer;
     padding: 8px;
-    z-index: 1001;
+    z-index: 1002;
     flex-shrink: 0;
     position: relative;
 }
@@ -1145,12 +1147,20 @@ section {
     .navbar {
         width: 100%;
         overflow-x: hidden;
+        background: rgba(10, 10, 15, 0.95);
+        backdrop-filter: blur(20px);
+        position: relative;
+    }
+    
+    .navbar .container {
+        position: relative;
+        z-index: 1001;
     }
     
     .nav-links {
         display: none;
-        position: absolute;
-        top: 100%;
+        position: fixed;
+        top: 70px;
         left: 0;
         right: 0;
         background: rgba(10, 10, 15, 0.95);
@@ -1158,6 +1168,11 @@ section {
         flex-direction: column;
         padding: 1rem;
         border-bottom: 1px solid var(--border-color);
+        z-index: 999;
+        max-height: calc(100vh - 70px);
+        overflow-y: auto;
+        margin: 0;
+        box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
     }
     
     .nav-links.active {
