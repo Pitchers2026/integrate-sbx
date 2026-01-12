@@ -7,7 +7,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 120px 0 60px;
+    padding: 20px 0 40px;
     text-align: center;
     position: relative;
 }
@@ -16,7 +16,7 @@
     display: flex;
     align-items: center;
     gap: 0.75rem;
-    margin-bottom: 2rem;
+    margin-bottom: 1rem;
     font-size: 0.9375rem;
 }
 
@@ -39,7 +39,7 @@
 }
 
 .product-logo {
-    margin-bottom: 2rem;
+    margin-bottom: 1rem;
 }
 
 .product-logo img {
@@ -68,7 +68,7 @@
     display: flex;
     justify-content: center;
     gap: 2rem;
-    margin-top: 4rem;
+    margin-top: 2rem;
 }
 
 .metric-card {
@@ -99,7 +99,7 @@
 
 /* Overview Section */
 .overview {
-    padding: 80px 0;
+    padding: 50px 0;
 }
 
 .overview-content {
@@ -115,7 +115,7 @@
 
 /* Features Section */
 .features {
-    padding: 100px 0;
+    padding: 50px 0;
     background: linear-gradient(180deg, transparent, rgba(99, 102, 241, 0.03), transparent);
 }
 
@@ -206,7 +206,7 @@
 
 /* Why Choose Section */
 .why-choose {
-    padding: 100px 0;
+    padding: 50px 0;
 }
 
 .benefits-grid {
@@ -246,7 +246,7 @@
 
 /* CTA Section */
 .cta-section {
-    padding: 80px 0;
+    padding: 50px 0;
 }
 
 .cta-content {
@@ -324,7 +324,7 @@
 
 @media (max-width: 480px) {
     .ma-hero {
-        padding: 100px 0 40px;
+        padding: 20px 0 40px;
     }
     
     .ma-hero .hero-title {
