@@ -9,14 +9,11 @@
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Blinker:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     
     <!-- AOS -->
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     
-    <!-- RemixIcon -->
-    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
-
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="ma-styles.css">
 </head>
@@ -72,7 +69,7 @@
                 <div class="hero-buttons">
                     <a href="index.html#contact" class="btn btn-primary">
                         <span>Request Demo</span>
-                        <i class="ri-arrow-right-line"></i>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
                     </a>
                     <a href="#features" class="btn btn-glass">
                         <span>Learn More</span>
@@ -104,9 +101,9 @@
                 <span class="section-tag">About integrateIQ</span>
                 <h2 class="section-title">Built by M&A Experts, <span class="gradient-text">for M&A Professionals</span></h2>
                 <p class="overview-text">
-                    IntegrateIQ is a sophisticated management platform purpose-built to help organizations 
+                    IntegrateIQ is a sophisticated management platform purpose-built to help organisations 
                     execute mergers and acquisitions with confidence, efficiency, and control. Developed by 
-                    seasoned professionals with deep, hands-on experience in managing complex M&A programs.
+                    seasoned professionals with deep, hands-on experience in managing complex M&A programmes.
                 </p>
                 <p class="overview-text">
                     M&A initiatives often require tracking thousands of interdependent tasks across multiple 
@@ -130,7 +127,9 @@
             <div class="features-grid">
                 <div class="feature-card" data-aos="fade-up" data-aos-delay="100">
                     <div class="feature-number">01</div>
-                    <div class="feature-icon"><i class="ri-book-read-fill" style="color: var(--primary);"></i></div>
+                    <div class="feature-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"></path><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"></path></svg>
+                    </div>
                     <h3>Comprehensive Task Library</h3>
                     <p>
                         Our comprehensive library spans the complete M&A lifecycle—from early due diligence 
@@ -147,7 +146,9 @@
                 
                 <div class="feature-card" data-aos="fade-up" data-aos-delay="200">
                     <div class="feature-number">02</div>
-                    <div class="feature-icon"><i class="ri-shield-check-fill" style="color: var(--accent);"></i></div>
+                    <div class="feature-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="11" width="18" height="11" rx="2" ry="2"></rect><path d="M7 11V7a5 5 0 0 1 10 0v4"></path></svg>
+                    </div>
                     <h3>Critical Control Objectives</h3>
                     <p>
                         Each task is linked to critical control objectives, ensuring strict compliance 
@@ -164,12 +165,14 @@
                 
                 <div class="feature-card" data-aos="fade-up" data-aos-delay="300">
                     <div class="feature-number">03</div>
-                    <div class="feature-icon"><i class="ri-settings-3-line" style="color: var(--primary);"></i></div>
-                    <h3>Flexible & Customizable</h3>
+                    <div class="feature-icon">
+                        <img src="images/icon-custom.svg" alt="Customisable" style="width: 32px; height: 32px;">
+                    </div>
+                    <h3>Flexible & Customisable</h3>
                     <p>
-                        Select and customize workstreams to align with your deal's scale, complexity, 
+                        Select and customise workstreams to align with your deal's scale, complexity, 
                         and risk profile. Grounded in industry best practices yet adaptable to your 
-                        organization's methodologies.
+                        organisation's methodologies.
                     </p>
                     <ul class="feature-list">
                         <li>Scalable frameworks</li>
@@ -181,7 +184,9 @@
                 
                 <div class="feature-card" data-aos="fade-up" data-aos-delay="400">
                     <div class="feature-number">04</div>
-                    <div class="feature-icon"><i class="ri-bar-chart-2-line" style="color: var(--accent);"></i></div>
+                    <div class="feature-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="20" x2="18" y2="10"></line><line x1="12" y1="20" x2="12" y2="4"></line><line x1="6" y1="20" x2="6" y2="14"></line></svg>
+                    </div>
                     <h3>Executive Dashboard</h3>
                     <p>
                         Real-time visibility through intuitive charts, heat maps, and timelines—highlighting 
@@ -208,39 +213,51 @@
             
             <div class="benefits-grid">
                 <div class="benefit-card glass-card" data-aos="fade-up" data-aos-delay="100">
-                    <div class="benefit-icon"><i class="ri-user-star-fill" style="color: var(--primary);"></i></div>
+                    <div class="benefit-icon">
+                        <img src="images/icon-expertise.svg" alt="Expertise" style="width: 32px; height: 32px;">
+                    </div>
                     <h4>Built by Practitioners</h4>
                     <p>Developed by seasoned professionals with deep, hands-on M&A experience</p>
                 </div>
                 
                 <div class="benefit-card glass-card" data-aos="fade-up" data-aos-delay="150">
-                    <div class="benefit-icon"><i class="ri-clipboard-line" style="color: var(--accent);"></i></div>
+                    <div class="benefit-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path><polyline points="14 2 14 8 20 8"></polyline><line x1="16" y1="13" x2="8" y2="13"></line><line x1="16" y1="17" x2="8" y2="17"></line><polyline points="10 9 9 9 8 9"></polyline></svg>
+                    </div>
                     <h4>Structured Framework</h4>
                     <p>Replace spreadsheets with an intelligent framework that drives accountability</p>
                 </div>
                 
                 <div class="benefit-card glass-card" data-aos="fade-up" data-aos-delay="200">
-                    <div class="benefit-icon"><i class="ri-checkbox-circle-fill" style="color: var(--primary);"></i></div>
+                    <div class="benefit-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                    </div>
                     <h4>Compliance Built-In</h4>
                     <p>Critical control objectives linked to every task for audit readiness</p>
                 </div>
                 
                 <div class="benefit-card glass-card" data-aos="fade-up" data-aos-delay="250">
-                    <div class="benefit-icon"><i class="ri-line-chart-fill" style="color: var(--accent);"></i></div>
+                    <div class="benefit-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="22 12 18 12 15 21 9 3 6 12 2 12"></polyline></svg>
+                    </div>
                     <h4>Real-Time Visibility</h4>
                     <p>Executive dashboards with charts, heat maps, and timelines</p>
                 </div>
                 
                 <div class="benefit-card glass-card" data-aos="fade-up" data-aos-delay="300">
-                    <div class="benefit-icon"><i class="ri-links-fill" style="color: var(--primary);"></i></div>
+                    <div class="benefit-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg>
+                    </div>
                     <h4>Enterprise Integration</h4>
                     <p>Seamlessly connects with JIRA, ServiceNow, and Confluence</p>
                 </div>
                 
                 <div class="benefit-card glass-card" data-aos="fade-up" data-aos-delay="350">
-                    <div class="benefit-icon"><i class="ri-ruler-2-fill" style="color: var(--accent);"></i></div>
+                    <div class="benefit-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="3"></circle><path d="M12 1v6m0 6v6m9-9h-6m-6 0H3"></path></svg>
+                    </div>
                     <h4>Flexible & Scalable</h4>
-                    <p>Customize to your deal's scale, complexity, and risk profile</p>
+                    <p>Customise to your deal's scale, complexity, and risk profile</p>
                 </div>
             </div>
         </div>
@@ -258,7 +275,7 @@
                 <div class="cta-buttons">
                     <a href="index.html#contact" class="btn btn-primary">
                         <span>Request a Demo</span>
-                        <i class="ri-arrow-right-line"></i>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
                     </a>
                     <a href="index.html" class="btn btn-glass">
                         <span>Back to Home</span>
