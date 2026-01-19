@@ -368,5 +368,5 @@ if ('ontouchstart' in window) {
     cursorGlow.style.display = 'none';
 }
 
-console.log('✨ integrateXpro Modern UI loaded successfully');
+console.log('✨ ixpTechnology Modern UI loaded successfully');
 
